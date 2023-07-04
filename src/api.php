@@ -42,8 +42,6 @@ class ElderScrollsCharacterScraper {
             foreach ($links as $link) {
                 $characterInfo = $this->getCharacterInfo($link);
 
-                // Format and print the character's information
-                $this->printCharacterInfo($characterInfo);
 
                 // Increment the counter
                 $this->counter++;
@@ -87,16 +85,6 @@ class ElderScrollsCharacterScraper {
         return $characterInfo;
     }
 
-    private function printCharacterInfo($characterInfo) {
-        echo "Name: " . $characterInfo['name'] . "\n";
-        echo "Race: " . $characterInfo['race'] . "\n";
-        echo "Religion: " . $characterInfo['religion'] . "\n";
-        echo "Gender: " . $characterInfo['gender'] . "\n";
-        echo "Description: " . $characterInfo['description'] . "\n";
-        echo "Image: " . $characterInfo['image'] . "\n";
-    }
 }
 
-$scraper = new ElderScrollsCharacterScraper();
-$scraper->scrapeCharacters();
 ?>
