@@ -1,0 +1,22 @@
+{
+    "name": "yanndecelle/theelderscrollslore",
+    "description": "a library to get the elder scrolls characters's data",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "elderscrolls\\scrapper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yann Decelle",
+            "email": "yann.decelle@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10"
+    }
+}
