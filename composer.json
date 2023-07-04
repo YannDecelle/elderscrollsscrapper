@@ -2,6 +2,7 @@
     "name": "yanndecelle/theelderscrollslore",
     "description": "a library to get the elder scrolls characters's data",
     "type": "library",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "elderscrolls\\scrapper\\": "src/"
